@@ -140,7 +140,7 @@ function openCert(cert) {
             </p>
 
             <img
-                src="certificates/cisco.jpg"
+                src="cisco.jpg"
                 alt="Cisco Certificate"
                 class="certificate-image">
         `;
@@ -162,7 +162,7 @@ function openCert(cert) {
             </p>
 
             <img
-                src="certificates/kali-linux.jpg"
+                src="kali-linux.jpg"
                 alt="Kali Linux Certificate"
                 class="certificate-image">
         `;
@@ -187,7 +187,7 @@ function openCert(cert) {
             <p>St. Vincent Pallotti College of Engineering and Technology</p>
 
             <img
-                src="certificates/encipherx.jpg"
+                src="encipherx.jpg"
                 class="ctf-image">
 
             <hr>
@@ -196,7 +196,7 @@ function openCert(cert) {
             <p>School of Computer Applications, Pimpri Chinchwad University</p>
 
             <img
-                src="certificates/crest.jpg"
+                src="crest.jpg"
                 class="ctf-image">
 
             <hr>
@@ -205,7 +205,7 @@ function openCert(cert) {
             <p>BMS Institute of Technology and Management</p>
 
             <img
-                src="certificates/signal.jpg"
+                src="signal.jpg"
                 class="ctf-image">
 
             <hr>
@@ -214,7 +214,7 @@ function openCert(cert) {
             <p>Gyan Ganga Institute of Technology and Sciences</p>
 
             <img
-                src="certificates/crackin.jpg"
+                src="crackin.jpg"
                 class="ctf-image">
 
             <hr>
@@ -223,7 +223,7 @@ function openCert(cert) {
             <p>GeekHaven, IIIT Allahabad</p>
 
             <img
-                src="certificates/cybergeek.jpg"
+                src="cybergeek.jpg"
                 class="ctf-image">
         `;
     }
@@ -245,7 +245,7 @@ function openCert(cert) {
             </p>
 
             <img
-                src="certificates/python.jpg"
+                src="python.jpg"
                 alt="Python Certificate"
                 class="certificate-image">
         `;
@@ -267,7 +267,7 @@ function openCert(cert) {
             </p>
 
             <img
-                src="certificates/chess.jpg"
+                src="chess.jpg"
                 alt="Chess Certificate"
                 class="certificate-image">
         `;

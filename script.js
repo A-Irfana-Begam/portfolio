@@ -91,6 +91,7 @@ function openModal(project) {
             </ul>
         `;
     }
+    
     if (project === "ctf") {
 
     text.innerHTML = `

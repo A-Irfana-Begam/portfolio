@@ -1,7 +1,3 @@
-/* =========================
-   RESET
-========================= */
-
 *{
     margin:0;
     padding:0;
@@ -19,11 +15,6 @@ body{
     overflow-x:hidden;
     line-height:1.6;
 }
-
-/* =========================
-   PROGRESS BAR
-========================= */
-
 #progress-bar{
     position:fixed;
     top:0;
@@ -34,11 +25,6 @@ body{
     z-index:9999;
     box-shadow:0 0 10px #3b82f6;
 }
-
-/* =========================
-   NAVBAR
-========================= */
-
 nav{
     position:sticky;
     top:0;
@@ -66,26 +52,14 @@ nav a.active{
     color:#60a5fa;
     text-shadow:0 0 10px rgba(96,165,250,0.8);
 }
-
-/* =========================
-   SECTIONS
-========================= */
-
 section{
     padding:70px 30px;
     max-width:1000px;
     margin:auto;
     position:relative;
     z-index:1;
-
-    /* Navbar overlap fix */
     scroll-margin-top:120px;
 }
-
-/* =========================
-   HOME
-========================= */
-
 #home{
     min-height:90vh;
     display:flex;
@@ -107,11 +81,6 @@ h1{
     color:#e5e7eb;
     margin-bottom:30px;
 }
-
-/* =========================
-   HERO CARD
-========================= */
-
 .hero-card{
     background:#111827;
     border:1px solid rgba(59,130,246,0.3);
@@ -127,11 +96,6 @@ h1{
     margin:10px 0;
     color:#d1d5db;
 }
-
-/* =========================
-   HEADINGS
-========================= */
-
 h2{
     color:#93c5fd;
     border-bottom:2px solid #2563eb;
@@ -144,11 +108,6 @@ h3{
     color:#60a5fa;
     margin-bottom:10px;
 }
-
-/* =========================
-   CARDS
-========================= */
-
 .card{
     background:#111827;
     padding:30px;
@@ -162,20 +121,10 @@ h3{
     transform:translateY(-5px);
     box-shadow:0 0 25px rgba(59,130,246,0.35);
 }
-
-/* =========================
-   TEXT
-========================= */
-
 p{
     color:#d1d5db;
     font-size:17px;
 }
-
-/* =========================
-   LISTS
-========================= */
-
 ul{
     list-style:none;
     padding-left:0;
@@ -188,11 +137,6 @@ li{
     border-left:4px solid #3b82f6;
     border-radius:8px;
 }
-
-/* =========================
-   CYBER PROFILE
-========================= */
-
 .stats{
     display:flex;
     gap:20px;
@@ -219,11 +163,6 @@ li{
     font-size:30px;
     margin-bottom:10px;
 }
-
-/* =========================
-   PROJECTS
-========================= */
-
 .project-card{
     background:#0f172a;
     padding:20px;
@@ -238,11 +177,6 @@ li{
     transform:translateX(8px);
     box-shadow:0 0 20px rgba(59,130,246,0.3);
 }
-
-/* =========================
-   CERTIFICATES
-========================= */
-
 .cert-card{
     background:#0f172a;
     padding:20px;
@@ -257,11 +191,6 @@ li{
     transform:translateX(8px);
     box-shadow:0 0 20px rgba(59,130,246,0.3);
 }
-
-/* =========================
-   CONTACT
-========================= */
-
 #contact a{
     color:#60a5fa;
     text-decoration:none;
@@ -282,12 +211,6 @@ li{
 .social-link i{
     font-size:24px;
 }
-
-
-/* =========================
-   MODAL
-========================= */
-
 .modal{
     display:none;
     position:fixed;
@@ -333,11 +256,6 @@ li{
 .close:hover{
     color:#60a5fa;
 }
-
-/* =========================
-   CERTIFICATE IMAGES
-========================= */
-
 .certificate-image,
 .ctf-image{
     width:100%;
@@ -345,21 +263,11 @@ li{
     border-radius:10px;
     border:2px solid #3b82f6;
 }
-
-/* =========================
-   FOOTER
-========================= */
-
 footer{
     text-align:center;
     padding:25px;
     color:#64748b;
 }
-
-/* =========================
-   CURSOR BLINK
-========================= */
-
 .cursor::after{
     content:"|";
     color:#60a5fa;
@@ -371,11 +279,6 @@ footer{
         opacity:0;
     }
 }
-
-/* =========================
-   PARTICLES
-========================= */
-
 #particles{
     position:fixed;
     top:0;
@@ -412,10 +315,6 @@ footer{
     }
 }
 
-/* =========================
-   REVEAL
-========================= */
-
 .reveal{
     opacity:0;
     transform:translateY(40px);
@@ -426,10 +325,6 @@ footer{
     opacity:1;
     transform:translateY(0);
 }
-
-/* =========================
-   MOBILE
-========================= */
 
 @media(max-width:768px){
 
@@ -458,17 +353,10 @@ footer{
         padding:20px;
     }
 }
-/* =========================
-   NEON CURSOR
-========================= */
 
 body{
     cursor:none;
 }
-
-/* =========================
-   NEON TRAIL PARTICLES
-========================= */
 
 .trail{
     position:fixed;

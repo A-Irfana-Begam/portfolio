@@ -95,7 +95,7 @@ function openModal(project) {
     if (project === "ctf") {
 
     text.innerHTML = `
-        <h2>Multiple CTF Events</h2>
+        <h2>Cyber Events</h2>
 
         <ul>
             <li>EncipherX 4.0 - St. Vincent Pallotti College of Engineering and Technology</li>

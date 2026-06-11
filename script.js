@@ -91,6 +91,24 @@ function openModal(project) {
             </ul>
         `;
     }
+    if (project === "ctf") {
+
+    text.innerHTML = `
+        <h2>Multiple CTF Events</h2>
+
+        <ul>
+            <li>EncipherX 4.0 - St. Vincent Pallotti College of Engineering and Technology</li>
+
+            <li>CREST CTF 2026 - Pimpri Chinchwad University</li>
+
+            <li>Signal Processing Based Virtual CTF - BMS Institute of Technology and Management</li>
+
+            <li>CRACK-IN 2.0 CTF - Gyan Ganga Institute of Technology and Sciences</li>
+
+            <li>CyberGeek CTF - GeekHaven, IIIT Allahabad</li>
+        </ul>
+    `;
+}
 
     modal.style.display = "block";
 }

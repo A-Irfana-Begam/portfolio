@@ -2,11 +2,6 @@ const text =
 "Cybersecurity Enthusiast | Blue Team Learner | Secure Web Developer";
 
 let i = 0;
-
-/* =========================
-   TYPING EFFECT
-========================= */
-
 function typeWriter() {
 
     if (i < text.length) {
@@ -18,11 +13,6 @@ function typeWriter() {
         setTimeout(typeWriter, 70);
     }
 }
-
-/* =========================
-   PAGE LOAD
-========================= */
-
 window.onload = function () {
 
     typeWriter();
@@ -33,11 +23,6 @@ window.onload = function () {
 
     updateProgressBar();
 };
-
-/* =========================
-   PARTICLES
-========================= */
-
 function createParticles() {
 
     const container = document.getElementById("particles");
@@ -59,11 +44,6 @@ function createParticles() {
         container.appendChild(particle);
     }
 }
-
-/* =========================
-   PROJECT MODALS
-========================= */
-
 function openModal(project) {
 
     const modal = document.getElementById("modal");
@@ -114,39 +94,10 @@ function openModal(project) {
 
     modal.style.display = "block";
 }
-
-/* =========================
-   CERTIFICATE MODALS
-========================= */
-
 function openCert(cert) {
 
     const modal = document.getElementById("modal");
     const text = document.getElementById("modal-text");
-
-    /* CISCO */
-
-    if (cert === "c1") {
-
-        text.innerHTML = `
-            <h2>Introduction to Cybersecurity</h2>
-
-            <p><strong>Provider:</strong> Cisco</p>
-
-            <p>
-                Completed Cisco's Introduction to Cybersecurity
-                certification covering cyber threats,
-                security principles and cybersecurity fundamentals.
-            </p>
-
-            <img
-                src="cisco.jpg"
-                alt="Cisco Certificate"
-                class="certificate-image">
-        `;
-    }
-
-    /* KALI */
 
     if (cert === "c2") {
 
@@ -167,91 +118,6 @@ function openCert(cert) {
                 class="certificate-image">
         `;
     }
-
-    /* CTF */
-
-    if (cert === "c3") {
-
-        text.innerHTML = `
-            <h2>CTF Certifications</h2>
-
-            <p>
-                Participated in multiple Capture The Flag competitions
-                involving cybersecurity, networking,
-                web security and problem solving.
-            </p>
-
-            <hr>
-
-            <h3>EncipherX 4.0</h3>
-            <p>St. Vincent Pallotti College of Engineering and Technology</p>
-
-            <img
-                src="encipherx.jpg"
-                class="ctf-image">
-
-            <hr>
-
-            <h3>CREST CTF 2026</h3>
-            <p>School of Computer Applications, Pimpri Chinchwad University</p>
-
-            <img
-                src="crest.jpg"
-                class="ctf-image">
-
-            <hr>
-
-            <h3>Signal Processing Based Virtual CTF</h3>
-            <p>BMS Institute of Technology and Management</p>
-
-            <img
-                src="signal.jpg"
-                class="ctf-image">
-
-            <hr>
-
-            <h3>CRACK-IN 2.0 CTF</h3>
-            <p>Gyan Ganga Institute of Technology and Sciences</p>
-
-            <img
-                src="crackin.jpg"
-                class="ctf-image">
-
-            <hr>
-
-            <h3>CyberGeek CTF</h3>
-            <p>GeekHaven, IIIT Allahabad</p>
-
-            <img
-                src="cybergeek.jpg"
-                class="ctf-image">
-        `;
-    }
-
-    /* PYTHON */
-
-    if (cert === "c4") {
-
-        text.innerHTML = `
-            <h2>Python for Data Science</h2>
-
-            <p><strong>Provider:</strong> Infosys Springboard</p>
-
-            <p>
-                Completed certification covering
-                Python programming fundamentals,
-                data handling and introductory
-                data science concepts.
-            </p>
-
-            <img
-                src="python.jpg"
-                alt="Python Certificate"
-                class="certificate-image">
-        `;
-    }
-
-    /* CHESS */
 
     if (cert === "c5") {
 
@@ -275,20 +141,10 @@ function openCert(cert) {
 
     modal.style.display = "block";
 }
-
-/* =========================
-   CLOSE MODAL
-========================= */
-
 function closeModal() {
 
     document.getElementById("modal").style.display = "none";
 }
-
-/* =========================
-   CLICK OUTSIDE CLOSE
-========================= */
-
 window.onclick = function(event) {
 
     const modal = document.getElementById("modal");
@@ -298,11 +154,6 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 };
-
-/* =========================
-   ESC KEY CLOSE
-========================= */
-
 document.addEventListener("keydown", function(event) {
 
     if (event.key === "Escape") {
@@ -310,11 +161,6 @@ document.addEventListener("keydown", function(event) {
         closeModal();
     }
 });
-
-/* =========================
-   SCROLL REVEAL
-========================= */
-
 function revealOnScroll() {
 
     const elements =
@@ -341,11 +187,6 @@ window.addEventListener(
     "scroll",
     revealOnScroll
 );
-
-/* =========================
-   PROGRESS BAR
-========================= */
-
 function updateProgressBar() {
 
     const scrollTop =
@@ -407,10 +248,6 @@ window.addEventListener("scroll", () => {
     });
 
 });
-/* =========================
-   NEON TRAIL EFFECT
-========================= */
-
 document.addEventListener("mousemove", (e) => {
 
     const trail = document.createElement("div");
